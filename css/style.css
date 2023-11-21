@@ -34,6 +34,7 @@ img {
 #wrap {
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 #topWrap {
     width: 100%;
@@ -47,6 +48,7 @@ img {
 #content {
     width: 400px;
     height: 100%;
+    overflow: overlay;
 }
 #slide {
     width: calc(100% - 600px);
